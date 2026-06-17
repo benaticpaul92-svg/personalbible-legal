@@ -23,9 +23,9 @@ Personal Bible is built around your name and family. We collect what we need to 
 
 ## Analytics
 
-We use Firebase Analytics (Google) to understand which features are used so we can improve the app. Events captured include: which screens you open, how often you start a prayer session, and whether you save a verse. We do NOT capture your name, family names, contact details, or the text of any verses.
+We use PostHog, a product-analytics service, to understand which features are used so we can improve the app. Events captured include: which screens you open, how often you start a prayer session, and whether you save a verse. We do NOT capture your name, family names, contact details, or the text of any verses.
 
-Firebase Analytics may collect a device identifier, country, language, and OS version. You can disable analytics entirely from your device's Settings > Privacy & Security > Tracking.
+PostHog records an anonymous device identifier (linked to the random, non-identifying account ID created on first launch), together with country, language, and OS version. This data is processed on PostHog's US-based cloud and is never used for advertising or to track you across other apps or websites. You can turn analytics off at any time in the app: Profile > About & Legal > "Share anonymous analytics."
 
 ## Crash reporting
 

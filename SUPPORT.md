@@ -78,7 +78,7 @@ Yes. Email martin@jebnengineering.com requesting a data export. Under GDPR (EU/U
 
 ### What data does Personal Bible collect?
 
-See our full [Privacy Policy](https://jebnengineering.com/personalbible-legal/) for details. In summary: we collect only what's needed for personalization (your name, family names, saved verses) and anonymous usage analytics. We never sell your data, never use it for advertising, and never share it with third parties beyond named processors (Supabase for storage, Firebase Analytics/Crashlytics for app health).
+See our full [Privacy Policy](https://jebnengineering.com/personalbible-legal/) for details. In summary: we collect only what's needed for personalization (your name, family names, saved verses) and anonymous usage analytics. We never sell your data, never use it for advertising, and never share it with third parties beyond named processors (Supabase for storage, PostHog for analytics, and Firebase Crashlytics for crash reporting).
 
 ## Troubleshooting
 
